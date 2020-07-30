@@ -12,7 +12,10 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: <String, WidgetBuilder>{
         '/' : (BuildContext context) => HomePage(),
-      }
+      },
+      theme: ThemeData(
+        primaryColor: Colors.deepPurpleAccent
+      )
     );
   }
 }
