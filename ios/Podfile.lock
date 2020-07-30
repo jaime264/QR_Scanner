@@ -20,7 +20,11 @@ DEPENDENCIES:
   - sqflite (from `.symlinks/plugins/sqflite/ios`)
 
 SPEC REPOS:
+<<<<<<< HEAD
   https://github.com/cocoapods/specs.git:
+=======
+  trunk:
+>>>>>>> af00403122c7b19df6f672b2f2be9a5471476535
     - FMDB
     - MTBBarcodeScanner
 
@@ -44,4 +48,8 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 1b66dae606f75376c5f2135a8290850eeb09ae83
 
+<<<<<<< HEAD
 COCOAPODS: 1.7.5
+=======
+COCOAPODS: 1.8.4
+>>>>>>> af00403122c7b19df6f672b2f2be9a5471476535
